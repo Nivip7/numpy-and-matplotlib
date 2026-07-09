@@ -1,0 +1,17 @@
+import numpy as np
+array1 = np.array([10, 20, 30, 40])
+array2 = np.array([2, 4, 5, 8])
+print("Array 1:       ", array1)
+print("Array 2:       ", array2)
+print("-" * 40)
+addition = array1 + array2         
+subtraction = array1 - array2      
+multiplication = array1 * array2   
+division = array1 / array2     
+print("Element-wise Addition (+):      ", addition)
+print("Element-wise Subtraction (-):   ", subtraction)
+print("Element-wise Multiplication (*):", multiplication)
+print("Element-wise Division (/):      ", division)
+print("-" * 40)
+dot_product = np.dot(array1, array2)
+print("Dot Product of Arrays:          ", dot_product)
